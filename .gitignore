@@ -17,3 +17,6 @@ assets/music/*.wav
 # Локальные venv/окружение
 venv/
 .venv/
+
+# Промежуточные кадры и звук ролика Reflex
+Reflex/frames/
