@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Промежуточные артефакты пайплайна v3 (рендер/микс/превью)
+video/v3/master3_mute.mp4
+video/v3/mix3.wav
+video/v3/preview3/
+video/v3/check/
+video/v3/timeline3.json
+assets/audio/proc3/
+
+# Производные аудио (генерируются sfx3.py / mix3.py из mp3-исходников)
+assets/audio/*.wav
+assets/music/*.wav
+
+# Локальные venv/окружение
+venv/
+.venv/
